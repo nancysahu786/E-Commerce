@@ -8,3 +8,26 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.common-form{
+display: flex;
+text-align: center;
+margin: auto;
+width: 300px;
+flex-direction: column;
+}
+
+.form-input{
+    height:35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+
+.form-button{
+    height: 35px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
