@@ -1,14 +1,28 @@
 <nav class="nav">
-  <h1>ECOMM</h1>
-  <div class="nav-search">
+  <h1><a routerLink="/">E-Comm</a></h1>
+  <!-- here menutype default means we want to show this search only to local user not seller -->
+  <div *ngIf="menuType==='default'" class="nav-search">
     <input type="text" placeholder="Search product here">
     <button>Search</button>
   </div>
-  <ul>
-<li><a routerLink="/">home</a></li> 
-<li><a routerLink="seller-auth">seller</a></li>
-<li><a>login</a></li>
-<li><a>cart(0)</a></li>
-
-  </ul>
+  <!-- <div ngSwitch="menuType"> -->
+    <!-- user menu -->
+    <!-- <ul *ngSwitchCase="menuType === 'default'"> -->
+      <ul *ngIf="menuType === 'default'">
+      <li><a routerLink="/">home</a></li>
+      <li><a routerLink="seller-auth">seller</a></li>
+      <li><a>login</a></li>
+      <li><a>cart(0)</a></li>
+  
+    </ul>
+    <!-- seller menu -->
+    <ul  *ngIf="menuType === 'seller'">
+      <li><a routerLink="seller-product-list">Product List</a></li>
+      <li><a routerLink="seller-add-product">Add Product</a></li>
+      <li><a (click)="logout()">Logout</a></li>
+      <li><a>{{sellerName | titlecase}}</a></li>
+  
+    </ul>
+  <!-- </div> -->
+  
 </nav>

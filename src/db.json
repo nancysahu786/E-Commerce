@@ -15,6 +15,111 @@
         "email": "nancysahu369@gmail.com"
       },
       "id": 2
+    },
+    {
+      "data": {
+        "name": "nancy sahu sahu",
+        "password": "Test@123",
+        "email": "sundar.notary@mailinator.com"
+      },
+      "id": 3
+    },
+    {
+      "data": {
+        "name": "abhinav",
+        "password": "abhinav@123",
+        "email": "abhinav@gmail.com"
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "name": "kelvin",
+        "password": "kelvin@123",
+        "email": "kelvin@mailinator.com"
+      },
+      "id": 5
+    },
+    {
+      "data": {
+        "name": "semon sahu",
+        "password": "semon2123",
+        "email": "semon@mailinator.com"
+      },
+      "id": 6
+    }
+  ],
+  "product": [
+    {
+      "name": "mobile",
+      "price": "3000",
+      "color": "red",
+      "category": "sam",
+      "url": "fgdfgfg",
+      "id": 1
+    },
+    {
+      "name": "fridge",
+      "price": "50000",
+      "color": "red",
+      "category": "dghh",
+      "url": "fgdfgfg",
+      "description": "hgghfghg",
+      "id": 2
+    },
+    {
+      "name": "fridge",
+      "price": "50000",
+      "color": "red",
+      "category": "dghh",
+      "url": "fgdfgfg",
+      "description": "hgghfghg",
+      "id": 3
+    },
+    {
+      "name": "mobile",
+      "price": "3000",
+      "color": "red",
+      "category": "sam",
+      "url": "fgdfgfg",
+      "description": "tyutyuyu",
+      "id": 4
+    },
+    {
+      "name": "mobile",
+      "price": "3000",
+      "color": "red",
+      "category": "sam",
+      "url": "fgdfgfg",
+      "description": "sggfg",
+      "id": 5
+    },
+    {
+      "name": "mobile",
+      "price": "3000",
+      "color": "red",
+      "category": "sam",
+      "url": "fgdfgfg",
+      "description": "sggfg",
+      "id": 6
+    },
+    {
+      "name": "mobile",
+      "price": "3000",
+      "color": "red",
+      "category": "sam",
+      "url": "fgdfgfg",
+      "description": "tyrtyty",
+      "id": 7
+    },
+    {
+      "name": "Nancy Sahu",
+      "price": "3000",
+      "color": "red",
+      "category": "sam",
+      "url": "fgdfgfg",
+      "description": "tryrtyrty",
+      "id": 8
     }
   ]
 }

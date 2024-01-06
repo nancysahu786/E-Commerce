@@ -8,6 +8,9 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { SellerHomeComponent } from './seller-home/seller-home/seller-home.component';
+import { SellerProductListComponent } from './sellerList/seller-product-list/seller-product-list.component';
+import { SellerAddProductComponent } from './sellerAddProduct/seller-add-product/seller-add-product.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SellerAuthComponent
+    SellerAuthComponent,
+    SellerHomeComponent,
+    SellerProductListComponent,
+    SellerAddProductComponent
   ],
   imports: [
     BrowserModule,
